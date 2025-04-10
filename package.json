@@ -1,0 +1,19 @@
+{
+  "name": "bittuproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Bittu patle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.4",
+    "mongoose": "^8.13.2",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

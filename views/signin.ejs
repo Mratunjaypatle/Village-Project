@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sign in</title>
+</head>
+
+<body>
+     <form action="/user/signin" method="post" id="signinform">
+          <table>
+               <tr>
+                    <td><b>Name : </b></td>
+                    <td> <input type="text" placeholder="Enter the name" name="name" required></td>
+               </tr>
+               <tr>
+                    <td><b>Password:</b></td>
+                    <td><input type="password" placeholder="Enter the password" name="password" required></td>
+               </tr>
+               <tr>
+                    <td></td>
+                    <td><button>Sign in</button></td>
+               </tr>
+          </table>
+     </form>
+     <a href="/"><button>home</button></a> 
+
+     <script>
+          const allForm = document.getElementById('signinform');
+          form.addEventListener("submit", () =>
+     {
+           setTimeout(() => {
+               allForm.reset();
+           }, 200);
+     })
+     </script>
+</body>
+
+</html>
